@@ -6,7 +6,8 @@ main {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  padding: 70px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 footer {
