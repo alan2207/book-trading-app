@@ -1,0 +1,42 @@
+body {
+  background-color: #F9F9F9;
+}
+
+main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 70px;
+}
+
+footer {
+  flex: 1;
+  text-align: center
+  
+}
+
+
+.book-image {
+  float: right;
+}
+
+.content {
+  display: inline-block;
+}
+
+
+.nav-fixed-top{
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+.navbar, .footer {
+  background-color: #001a44;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+}
